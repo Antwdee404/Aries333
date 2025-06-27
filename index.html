@@ -4,23 +4,28 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Wanna Go Out?</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet" />
 </head>
 <body>
   <div class="card" id="card">
     <div class="header_text">Aries Do you wanna go out with me?</div>
 
-    <!-- ✅ FIXED: Properly closed video tag -->
-    <video autoplay loop src="vanillamace-vanillamace-loaf.mp4" class="loaf-video"></video>
+    <img
+      src="https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUydXUzMjU1ZnIxeDQxMWY4dDJidmpyY2NlejViZmc5MHh2Mjk4Z3VxeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yASFCj2K0MGeASqSom/giphy.gif"
+      alt="Cute front gif"
+      class="loaf-video"
+    />
 
-    <button class="btn" id="yesBtn">Yes</button>
-    <button class="btn" id="noBtn">No</button>
+    <div class="buttons-wrapper">
+      <button class="btn" id="yesBtn">Yes</button>
+      <button class="btn" id="noBtn">No</button>
+    </div>
   </div>
 
-  <script src="script.js"></script>
   <div id="heart-container"></div>
 
+  <script src="script.js"></script>
 </body>
 </html>
 
